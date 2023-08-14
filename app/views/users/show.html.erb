@@ -1,0 +1,22 @@
+
+
+    <div class="card card-header results-block mt-2">
+      <table class="col-md-12">
+        <tbody>
+            <tr>
+              <td><strong>Name: </strong> <%= @user.full_name %> | </td>
+              <td><strong>Email: </strong> <%= @user.email %> | </td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+<%= render 'stocks/list' %>
+
+
+
+
+<div>
+<%= link_to 'Back to My Friends', my_friends_path, class: 'btn btn-sm btn-light' %>
+</div>

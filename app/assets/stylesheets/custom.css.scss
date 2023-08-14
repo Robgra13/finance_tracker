@@ -1,0 +1,41 @@
+@import 'bootstrap';
+@import "font-awesome";
+
+
+.search-area {
+  padding-top: 50px;
+}
+
+.no-right-padding {
+  padding-right: 0 !important;
+}
+
+.no-left-padding {
+  padding-left: 0 !important;
+}
+
+.results-block {
+    display: inline-block;
+}
+
+/* Add spacing between logout button and search form */
+.search-form {
+  margin-left: 10px; /* Adjust the value as needed */
+}
+
+.custom-mr-5 {
+  margin-right: 0.5rem; /* You can adjust the value as needed */
+}
+
+.user-name {
+  margin-top: 3.5%;
+  padding-right: 5px;
+}
+
+.bg-dark-text {
+  color: #343a40;
+}
+
+.action-column {
+    width: 150px;
+  }
